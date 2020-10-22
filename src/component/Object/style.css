@@ -1,0 +1,33 @@
+.ourobject{
+  /* margin:20px 0; */
+}
+.ourobject > .uicard{
+    flex-wrap: wrap;
+    
+  
+  flex-direction: row;
+  justify-content: left;
+
+  padding-top: 50px;
+   position: relative;
+}
+.ourobject > .uicard> div{
+width:250px;
+height: 250px;
+margin: 15px 20px;
+
+}
+.ourobject img{
+    width:inherit;
+    object-fit: cover;
+    height:inherit;
+}
+.ourobject span{
+  position: absolute;
+  top: 1%;
+  left: 40%;
+  vertical-align: baseline;
+  font-size: 26px;
+  font-weight: 500;
+
+}
